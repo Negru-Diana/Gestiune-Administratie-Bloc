@@ -6,15 +6,22 @@
 
 ## Functionalitati principale:
 
-### 1. Administrarea cheltuielilor
+### 1. Operatii CRUD
 -  Adaugarea de cheltuieli pentru un apartament
--  Modificarea cheltuielilor existente
--  Stergerea cheltuielilor pentru un apartament
+-  Modificarea/Stergerea cheltuielilor existente
+-  Afisarea tutror cheltuielilor in format structurat
 
-### 2. Vizualizare si filtrare
-- Afisarea listei complete de cheltuieli
-- Filtrarea dupa criterii specifice (apartament, suma, tipul cheltuielii)
-- Sortarea cheltuielilor dupa suma si tip (crescator/descrescator)
+### 2. Filtrare
+- Dupa **apartament** (toate cheltuielile pentru un anumit apartament)
+- Dupa **suma** (interval specificat de utilizator)
+- Dupa **tip** (ex.: "apa", "curent")
+
+### 3. Sortare flexibila
+-  **Crescatoare/Descrescatoare** dupa suma, cu rezolvarea egalitatilor folosind ca si criteriu secundar tipul cheltuielii
+
+### 4. Interfata Utilizator
+-  Meniu interactiv cuprompt-uri clare si gestionarea robusta a input-urilor invalide
+-  Mesaje de feedback pentru actiuni reusite sau erori (ex.: date invalide, cheltuieli inexistente)
 
 
 ## Obiective proiect
@@ -23,7 +30,8 @@
 
 -  **Dezvoltarea abilitatilor practice in C**:
     -  Utilizarea **alocarii dinamice** si gestionarea eficienta a memoriei
-    -  Implementarea operatiunilor **CRUD** pe liste dinamice
+    -  Utilizarea **structurilor de date** pentru organizarea eficienta a datelor
+    -  Implementarea operatiilor **CRUD** pe liste dinamice
 
 -  **Aplicarea principiilor de programare modulara**:
     -  Separarea clara a functionalitatilor in module distincte pentru o arhitectura bine organizata
